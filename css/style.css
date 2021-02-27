@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+body {
+    overflow-x: hidden;
+}
+.cover {
+     background-image: linear-gradient(
+      rgba(0, 0, 0, 0.20),
+      rgba(0, 0, 0, 0.20)
+    ),url(../img/gym-cover.jpg);
+    background-size: cover;
+  
+    height: 600px;
+}
+.nav-item a {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.bg-custom {
+    background-color: white;
+}
+.nav-item {
+    background-color: white;
+   
+}
+
+.nav-item a:hover {
+    color: #78a32f!important;
+}
+.main-content {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.welcome {
+    color: white;
+    padding-bottom: 50px;
+}
+.round {
+    border-radius: 28px;
+    border: none;
+   
+} 
+.add-btn-color {
+    background-color: #244272;
+}
+.add {
+    padding-top: 20px;
+    
+  
+}
+.add-button {
+    height: 40px;
+    background-color: #bdcccd;
+}
+.color {
+    background-color: #78a32f;
+}
+
+
+/* LOGIN */
+
+.login-cover {
+    background-image: linear-gradient(
+      rgba(35, 61, 92, 0.7),
+      rgba(35, 61, 92, 0.7)
+    ),url(../img/login-cover.jpg);
+    background-size: cover;
+   
+    
+}
+.card-register {
+    width: 100%;
+}
+
+/* SHOP */
+
+.products-section {
+    background-color: #bdcccd;
+    
+}
+
+.shop-cover {
+     background-image: linear-gradient(
+      rgba(0, 0, 0, 0.30),
+      rgba(0, 0, 0, 0.30)
+    ),url(../img/shop-cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+.shop-cover h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    
+}
+.shop-cover p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+}
+.padding-row {
+    margin-top: 30px;
+}
+.merge-button {
+    background-color: #bdcccd;
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+
+    .card-width {
+        width: 14rem;
+    }
+
+}
+
+
+@media (max-width: 767px) { 
+    .col-margin {
+        margin-top: 30px;
+    }
+    .card-width {
+        width: 25rem;
+    }
+    .card {
+    margin: 0 auto; /* Added */
+        float: none; 
+    }
+}
+/* --END OF SHOP -- */
+
+/* --ADD PRODUCT MODAL -- */
+textarea {
+	resize: none;
+}
+.form-label {
+	font-size: 12px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #5e9bfc;
+}
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999;
+}
+.btn-start-order {
+	background: 0 0 #ffffff;
+    border: 1px solid #16425B;
+    border-radius: 3px;
+    color: #2f323a;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+	border-color: #5e9bfc;
+	color: #5e9bfc;
+}
+
+
+
+
+
+/* --ENF OF ADD PRODUCT MODAL -- */
+.color-footer {
+    background-color:  #16425B;
+}
+.color-footer p {
+    color: aliceblue;
+}
+.footer-details h1 {
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 1.2rem;
+}
+.footer-details p {
+    
+    font-family: 'Open Sans', sans-serif;  
+}
+.footer-details {
+    margin-top: 25px;
+}
+
+i.fas.fa-mobile-alt {
+  
+    width: 70px;
+   bottom: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #e8f0d9;
+    color: #78a32f;
+    font-size:40px;
+    
+    display:block;
+    text-align:center;
+    
+}
+
+.edit-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+i.fas.fa-map-marker-alt {
+   
+    width: 70px;
+   bottom: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #e8f0d9;
+    color: #78a32f;
+   
+    font-size:40px;
+   
+    display:block;
+    text-align:center;
+}
+i.fab.fa-facebook {
+      width: 70px;
+   bottom: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #e8f0d9;
+    color: #78a32f;
+   
+    font-size:40px;
+   
+    display:block;
+    text-align:center;
+}
+i.fa.fa-trash {
+    color: darkred;
+    font-size: 20px;
+}
+i.fas.fa-pencil-alt {
+    color: dimgray;
+    font-size: 20px;
+    
+}
+.top-margin {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.top-margin-cstm {
+    margin-top:15px;
+}
+i.fab.fa-facebook {
+   
+    width: 70px;
+   bottom: 10px;
+    padding: 15px;
+    border-radius: 50%;
+  font-size:40px;
+     color: #78a32f;
+    text-align:center;
+}
+.loc {
+    
+    padding: 20px;
+    color: dimgray;
+    text-align: center;
+    font-style:'Open Sans', sans-serif;
+    font-size:15px;
+    line-height:1.43em;
+  
+}
+
+/* ANNOUNCEMENTS */
+.ann-main {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.60),
+      rgba(0, 0, 0, 0.60)
+    ),url("../img/ann-cover.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 600px;
+    align-items: center;
+}
+.ann-main h1 {
+    font-family: 'Open Sans',sans-serif;
+}
+.ann-main p {
+    font-family: 'Open Sans',sans-serif;
+}
+.annou-sec {
+    background-color: #D9E1E4;
+}
+.ann-id {
+    font-size: 18px;
+    font-family: 'Open Sans',sans-serif;
+}
+.admin-panel {
+    float: right;
+}
+.ann-bg {
+   
+    background-color: #009688;
+
+}
+.ann-sec-bg{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+}  
+.ann-sec-bg h2{
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    
+}
+.ann-shadow {
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.color-ann-btn {
+    background-color: #009688;
+} 
+.ann-heading {
+    font-family: 'Open Sans',sans-serif;
+}
+.ann-text {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+}
+ @media only screen and (min-width : 480px) {
+     .ann-primary {
+         padding-top: 60px;
+         padding-bottom: 60px;
+     }
+    
+    }
+
+ @media only screen and (min-width : 320px) {
+ .ann-primary {
+         padding-top: 60px;
+         padding-bottom: 60px;
+     }
+     
+    
+    }
+
+
+#top-jumpo {
+    margin-bottom: 0;
+}
+#top-jumpo2 {
+    margin-bottom: 0;
+}
+.color-footer {
+    background-color: white;
+}
+.page-footer {
+   
+    font-family: 'Open Sans', sans-serif;
+}
+.page-footer p {
+    color: dimgray;
+}
+.ann-primary {
+    color: white;
+}
+.admin-panel i {
+    color: white!important;
+}
+/* SIGN IN */
+.captcha {
+    margin-top: 30px;
+}
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-label-group input {
+  height: 40px;
+  border-radius: 2rem;
+  border: 1px solid grey;
+}
+
+
+.padding {
+    padding-top: 40px;
+}
+.form-label-group>label {
+
+ text-align: left;
+ color: grey;
+  width: 100%;
+  margin-bottom: 10px;
+  /* Override default <label> margin */
+  line-height: 0.5;
+  
+ 
+  
+  border-radius: 1.25rem;
+
+}
+
+.btn-register {
+  color: white;
+  background-color: #ea4335;
+}
+/** PRICES **/
+.prices-cover {
+    
+
+ background-image: linear-gradient(
+      rgba(0, 0, 0, 0.50),
+      rgba(0, 0, 0, 0.50)
+    ),url(../img/prices-cover.jpg);
+    background-size: cover;
+  
+    height: 600px;
+}
+.prices-cover h1 {
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Open Sans',sans-serif;
+}
+.prices-cover p {
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Open Sans',sans-serif;
+}
+.admin-panel-prices {
+    float: right;
+}
+.prices-titles {
+    color: gray;
+    font-family: 'Open Sans',sans-serif;
+    text-decoration: none;
+    
+}
+.prices-titles:focus {
+    text-decoration: none;
+      color: gray;
+    font-family: 'Open Sans',sans-serif;
+}
+#logout {
+    color: white;
+    
+}
+.nav-item #logout:hover {
+    color: white!important;
+}
+
+/** DISABLE FIXED SCROL FOR MOBILE **/
+#upload {
+    float: right;
+}
+.profile-cover {
+   background-image: linear-gradient(
+      rgba(0, 0, 0, 0.30),
+      rgba(0, 0, 0, 0.30)
+    ),url(../img/profile-cover.jpg);
+    background-size: cover;
+}
+.manage-title {
+    color: grey;
+}
+.profile-section {
+    background-color: #81c784;
+
+} 
+
+.bookings {
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+   
+}
+
+.profile-section h1 {
+    font-family: 'Open Sans',sans-serif;
+}
+
+.bookings p {
+    margin-top: 1rem;
+    color: grey;
+    font-family: 'Open Sans',sans-serif;
+}
+#book-h1 {
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.profile-space {
+    height: 600px;
+}
+#book-p {
+    color: white;
+   text-shadow: 1px 1px 2px rgba(0,0,0,0.95);
+    font-size: 20px;
+}
+.table-edit {
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    
+}
+.tos-terms {
+    color: #007bff!important;
+    cursor: pointer;
+    
+}
+.tos-style p,h4,li{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+.tos-style p,li {
+    color: grey;
+}
+.tos-style h4 {
+    color: #345ea3;
+}
+.book-cover {
+   background-image: linear-gradient(
+      rgba(0, 0, 0, 0.30),
+      rgba(0, 0, 0, 0.30)
+    ),url(../img/book-cover.jpg);
+    background-size: cover;
+    height: 900px;
+}
+.service-label>label{
+   color: grey;
+}
+.book-content {
+    color: grey;
+}
+.input-group-addon .fa-calendar {
+    color: grey;
+}
+.admin-bookings {
+    background-color: slategrey;
+}
+.img-ext {
+    max-width: 1000px;
+  width:100%;
+}
+@media (min-width: 1024px) {
+    .cover{ height: 900px; }
+}
+.product-invalid {
+    
+}
+@supports (-webkit-overflow-scrolling: touch) {
+  .shop-cover {
+  background-attachment: scroll;
+  }
+  
+}
